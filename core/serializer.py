@@ -1,6 +1,8 @@
 from rest_framework import serializers
 from .models import Usuario, Animal
 from django.contrib.auth import get_user_model
+
+
 class UsuarioSerializer(serializers.ModelSerializer):
     class Meta:
         model = Usuario
